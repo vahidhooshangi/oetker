@@ -1,0 +1,24 @@
+[2023-01-17T23:24:25.252+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: oetker.task_end scheduled__2023-01-16T23:07:37.134271+00:00 [queued]>
+[2023-01-17T23:24:25.269+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: oetker.task_end scheduled__2023-01-16T23:07:37.134271+00:00 [queued]>
+[2023-01-17T23:24:25.271+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T23:24:25.273+0000] {taskinstance.py:1284} INFO - Starting attempt 6 of 6
+[2023-01-17T23:24:25.275+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T23:24:25.296+0000] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): task_end> on 2023-01-16 23:07:37.134271+00:00
+[2023-01-17T23:24:25.304+0000] {standard_task_runner.py:55} INFO - Started process 1587 to run task
+[2023-01-17T23:24:25.311+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'oetker', 'task_end', 'scheduled__2023-01-16T23:07:37.134271+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/oetker/oetker.py', '--cfg-path', '/tmp/tmpb4au29dy']
+[2023-01-17T23:24:25.313+0000] {standard_task_runner.py:83} INFO - Job 89: Subtask task_end
+[2023-01-17T23:24:25.407+0000] {task_command.py:389} INFO - Running <TaskInstance: oetker.task_end scheduled__2023-01-16T23:07:37.134271+00:00 [running]> on host 876fdb6abbd4
+[2023-01-17T23:24:25.504+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=oetker
+AIRFLOW_CTX_TASK_ID=task_end
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-16T23:07:37.134271+00:00
+AIRFLOW_CTX_TRY_NUMBER=6
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-16T23:07:37.134271+00:00
+[2023-01-17T23:24:25.507+0000] {logging_mixin.py:137} INFO - [ Task_End  ]
+[2023-01-17T23:24:25.509+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-17T23:24:25.523+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=oetker, task_id=task_end, execution_date=20230116T230737, start_date=20230117T232425, end_date=20230117T232425
+[2023-01-17T23:24:25.564+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-17T23:24:25.588+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

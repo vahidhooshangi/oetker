@@ -1,0 +1,4 @@
+pendulum~=2.1.2
+requests~=2.28.2
+pyspark~=3.3.1
+apache-airflow-providers-apache-spark==4.0.0

@@ -1,0 +1,34 @@
+[2023-01-17T23:18:41.301+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: oetker.download_data_set scheduled__2023-01-16T23:07:37.134271+00:00 [queued]>
+[2023-01-17T23:18:41.315+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: oetker.download_data_set scheduled__2023-01-16T23:07:37.134271+00:00 [queued]>
+[2023-01-17T23:18:41.316+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T23:18:41.318+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 2
+[2023-01-17T23:18:41.319+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-17T23:18:41.338+0000] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): download_data_set> on 2023-01-16 23:07:37.134271+00:00
+[2023-01-17T23:18:41.345+0000] {standard_task_runner.py:55} INFO - Started process 1203 to run task
+[2023-01-17T23:18:41.351+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'oetker', 'download_data_set', 'scheduled__2023-01-16T23:07:37.134271+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/oetker/oetker.py', '--cfg-path', '/tmp/tmpt022psss']
+[2023-01-17T23:18:41.352+0000] {standard_task_runner.py:83} INFO - Job 78: Subtask download_data_set
+[2023-01-17T23:18:41.460+0000] {task_command.py:389} INFO - Running <TaskInstance: oetker.download_data_set scheduled__2023-01-16T23:07:37.134271+00:00 [running]> on host 876fdb6abbd4
+[2023-01-17T23:18:41.553+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=oetker
+AIRFLOW_CTX_TASK_ID=download_data_set
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-16T23:07:37.134271+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-16T23:07:37.134271+00:00
+[2023-01-17T23:18:42.649+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 217, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/oetker/oetker.py", line 39, in download_data_set
+    with open("home/airflow/response.json", "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'home/airflow/response.json'
+[2023-01-17T23:18:42.784+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=oetker, task_id=download_data_set, execution_date=20230116T230737, start_date=20230117T231841, end_date=20230117T231842
+[2023-01-17T23:18:42.877+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 78 for task download_data_set ([Errno 2] No such file or directory: 'home/airflow/response.json'; 1203)
+[2023-01-17T23:18:42.985+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-01-17T23:18:43.085+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

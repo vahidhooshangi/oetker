@@ -1,0 +1,691 @@
+[2023-01-17T22:57:29.783+0000] {processor.py:153} INFO - Started process (PID=1213) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:57:29.787+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T22:57:29.791+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:29.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:57:29.921+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:57:30.440+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:30.440+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:oetker
+[2023-01-17T22:57:30.452+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:30.452+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:oetker
+[2023-01-17T22:57:30.464+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:30.464+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:oetker
+[2023-01-17T22:57:30.465+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:30.465+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T22:57:30.482+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:30.482+0000] {dag.py:2697} INFO - Creating ORM DAG for oetker
+[2023-01-17T22:57:30.497+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:57:30.497+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T22:57:30.497186+00:00, run_after=2023-01-17T22:57:30.497186+00:00
+[2023-01-17T22:57:30.526+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.752 seconds
+[2023-01-17T22:58:01.198+0000] {processor.py:153} INFO - Started process (PID=1287) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:58:01.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T22:58:01.204+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:58:01.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:58:01.265+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:58:01.325+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:58:01.324+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T22:58:01.381+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:58:01.381+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T22:58:01.380928+00:00, run_after=2023-01-17T22:58:01.380928+00:00
+[2023-01-17T22:58:01.414+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.220 seconds
+[2023-01-17T22:59:06.620+0000] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:59:06.621+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T22:59:06.623+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:59:06.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:59:06.663+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:59:06.746+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:59:06.746+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T22:59:06.772+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:59:06.772+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T22:59:06.772096+00:00, run_after=2023-01-17T22:59:06.772096+00:00
+[2023-01-17T22:59:06.794+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.179 seconds
+[2023-01-17T22:59:37.105+0000] {processor.py:153} INFO - Started process (PID=114) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:59:37.107+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T22:59:37.110+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:59:37.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:59:37.158+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T22:59:37.210+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:59:37.210+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T22:59:37.243+0000] {logging_mixin.py:137} INFO - [2023-01-17T22:59:37.243+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T22:59:37.242802+00:00, run_after=2023-01-17T22:59:37.242802+00:00
+[2023-01-17T22:59:37.271+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.172 seconds
+[2023-01-17T23:00:07.614+0000] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:00:07.619+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:00:07.622+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:00:07.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:00:07.698+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:00:07.776+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:00:07.776+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:00:07.829+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:00:07.829+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:00:07.829151+00:00, run_after=2023-01-17T23:00:07.829151+00:00
+[2023-01-17T23:00:07.882+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.275 seconds
+[2023-01-17T23:00:38.280+0000] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:00:38.283+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:00:38.287+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:00:38.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:00:38.351+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:00:38.410+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:00:38.410+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:00:38.456+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:00:38.456+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:00:38.455435+00:00, run_after=2023-01-17T23:00:38.455435+00:00
+[2023-01-17T23:00:38.497+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.232 seconds
+[2023-01-17T23:01:08.961+0000] {processor.py:153} INFO - Started process (PID=327) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:08.964+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:01:08.966+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:08.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:09.016+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:09.069+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:09.069+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:01:09.103+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:09.103+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:01:09.102675+00:00, run_after=2023-01-17T23:01:09.102675+00:00
+[2023-01-17T23:01:09.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.174 seconds
+[2023-01-17T23:01:09.877+0000] {processor.py:153} INFO - Started process (PID=335) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:09.881+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:01:09.883+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:09.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:09.970+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:10.112+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:10.112+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:01:10.147+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:10.146+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:01:10.146534+00:00, run_after=2023-01-17T23:01:10.146534+00:00
+[2023-01-17T23:01:10.193+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.322 seconds
+[2023-01-17T23:01:40.609+0000] {processor.py:153} INFO - Started process (PID=400) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:40.612+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:01:40.615+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:40.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:40.683+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:01:40.761+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:40.761+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:01:40.802+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:01:40.802+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:01:40.801744+00:00, run_after=2023-01-17T23:01:40.801744+00:00
+[2023-01-17T23:01:40.838+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.235 seconds
+[2023-01-17T23:02:11.321+0000] {processor.py:153} INFO - Started process (PID=464) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:02:11.325+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:02:11.328+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:02:11.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:02:11.380+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:02:11.465+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:02:11.465+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:02:11.591+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:02:11.591+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:02:11.591162+00:00, run_after=2023-01-17T23:02:11.591162+00:00
+[2023-01-17T23:02:11.659+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.344 seconds
+[2023-01-17T23:02:42.192+0000] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:02:42.206+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:02:42.228+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:02:42.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:02:42.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:02:42.794+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:02:42.794+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:02:42.892+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:02:42.892+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:02:42.891994+00:00, run_after=2023-01-17T23:02:42.891994+00:00
+[2023-01-17T23:02:42.997+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.863 seconds
+[2023-01-17T23:03:13.752+0000] {processor.py:153} INFO - Started process (PID=598) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:03:13.756+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:03:13.760+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:03:13.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:03:13.821+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:03:13.878+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:03:13.878+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:03:13.926+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:03:13.926+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:03:13.925716+00:00, run_after=2023-01-17T23:03:13.925716+00:00
+[2023-01-17T23:03:13.962+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.218 seconds
+[2023-01-17T23:03:44.790+0000] {processor.py:153} INFO - Started process (PID=679) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:03:44.793+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:03:44.795+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:03:44.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:03:44.840+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:03:44.896+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:03:44.896+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:03:44.933+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:03:44.933+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:03:44.932893+00:00, run_after=2023-01-17T23:03:44.932893+00:00
+[2023-01-17T23:03:44.961+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.176 seconds
+[2023-01-17T23:04:15.885+0000] {processor.py:153} INFO - Started process (PID=746) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:04:15.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:04:15.892+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:04:15.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:04:15.956+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:04:16.028+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:04:16.028+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:04:16.070+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:04:16.069+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:04:16.069528+00:00, run_after=2023-01-17T23:04:16.069528+00:00
+[2023-01-17T23:04:16.100+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.223 seconds
+[2023-01-17T23:04:46.731+0000] {processor.py:153} INFO - Started process (PID=822) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:04:46.734+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:04:46.737+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:04:46.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:04:46.797+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:04:46.868+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:04:46.868+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:04:46.919+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:04:46.918+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:04:46.918634+00:00, run_after=2023-01-17T23:04:46.918634+00:00
+[2023-01-17T23:04:46.960+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.236 seconds
+[2023-01-17T23:05:17.875+0000] {processor.py:153} INFO - Started process (PID=893) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:05:17.880+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:05:17.885+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:05:17.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:05:17.930+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:05:17.984+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:05:17.984+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:05:18.020+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:05:18.020+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:05:18.020126+00:00, run_after=2023-01-17T23:05:18.020126+00:00
+[2023-01-17T23:05:18.045+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.176 seconds
+[2023-01-17T23:05:48.295+0000] {processor.py:153} INFO - Started process (PID=960) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:05:48.299+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:05:48.302+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:05:48.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:05:48.361+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:05:48.417+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:05:48.417+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:05:48.481+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:05:48.481+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:05:48.480540+00:00, run_after=2023-01-17T23:05:48.480540+00:00
+[2023-01-17T23:05:48.546+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.261 seconds
+[2023-01-17T23:06:19.244+0000] {processor.py:153} INFO - Started process (PID=1037) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:19.264+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:06:19.296+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:19.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:19.645+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:19.880+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:19.877+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:06:19.977+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:19.977+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:06:19.976805+00:00, run_after=2023-01-17T23:06:19.976805+00:00
+[2023-01-17T23:06:20.026+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.815 seconds
+[2023-01-17T23:06:41.189+0000] {processor.py:153} INFO - Started process (PID=1092) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:41.193+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:06:41.198+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:41.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:41.297+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:41.527+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:41.526+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:06:41.575+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:41.575+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:06:41.575202+00:00, run_after=2023-01-17T23:06:41.575202+00:00
+[2023-01-17T23:06:41.613+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.434 seconds
+[2023-01-17T23:06:43.293+0000] {processor.py:153} INFO - Started process (PID=1093) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:43.297+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:06:43.302+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:43.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:43.827+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:06:44.406+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:44.406+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:06:44.668+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:06:44.667+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:06:44.667211+00:00, run_after=2023-01-17T23:06:44.667211+00:00
+[2023-01-17T23:06:44.855+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 1.570 seconds
+[2023-01-17T23:07:24.298+0000] {processor.py:153} INFO - Started process (PID=1160) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:07:24.351+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:07:24.366+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:07:24.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:07:24.833+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:07:25.211+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:07:25.211+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:07:25.671+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:07:25.671+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:07:25.670991+00:00, run_after=2023-01-17T23:07:25.670991+00:00
+[2023-01-17T23:07:25.965+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 1.698 seconds
+[2023-01-17T23:07:30.733+0000] {processor.py:153} INFO - Started process (PID=1166) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:07:30.913+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:07:30.953+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:07:30.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:07:34.510+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:07:36.990+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:07:36.990+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:07:37.140+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:07:37.137+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-16T23:07:37.134271+00:00, run_after=2023-01-17T23:07:37.134271+00:00
+[2023-01-17T23:07:37.317+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 6.608 seconds
+[2023-01-17T23:08:07.938+0000] {processor.py:153} INFO - Started process (PID=1234) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:08:07.943+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:08:07.947+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:08:07.947+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:08:08.005+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:08:08.081+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:08:08.081+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:08:08.130+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:08:08.130+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:08:08.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.236 seconds
+[2023-01-17T23:08:38.650+0000] {processor.py:153} INFO - Started process (PID=1301) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:08:38.653+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:08:38.655+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:08:38.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:08:38.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:08:38.767+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:08:38.767+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:08:38.821+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:08:38.821+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:08:38.870+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.224 seconds
+[2023-01-17T23:09:09.693+0000] {processor.py:153} INFO - Started process (PID=1365) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:09:09.698+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:09:09.708+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:09:09.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:09:09.838+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:09:10.003+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:09:10.002+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:09:10.090+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:09:10.090+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:09:10.153+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.476 seconds
+[2023-01-17T23:09:41.323+0000] {processor.py:153} INFO - Started process (PID=1431) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:09:41.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:09:41.352+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:09:41.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:09:41.579+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:09:41.961+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:09:41.960+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:09:42.279+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:09:42.278+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:09:42.390+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 1.074 seconds
+[2023-01-17T23:10:12.979+0000] {processor.py:153} INFO - Started process (PID=1499) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:10:12.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:10:12.983+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:10:12.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:10:13.020+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:10:13.089+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:10:13.089+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:10:13.130+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:10:13.130+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:10:13.177+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.204 seconds
+[2023-01-17T23:10:43.416+0000] {processor.py:153} INFO - Started process (PID=1579) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:10:43.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:10:43.421+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:10:43.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:10:43.458+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:10:43.510+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:10:43.510+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:10:43.551+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:10:43.551+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:10:43.583+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.173 seconds
+[2023-01-17T23:11:14.527+0000] {processor.py:153} INFO - Started process (PID=1646) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:11:14.529+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:11:14.531+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:11:14.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:11:14.575+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:11:14.627+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:11:14.627+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:11:14.661+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:11:14.661+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:11:14.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.167 seconds
+[2023-01-17T23:11:44.979+0000] {processor.py:153} INFO - Started process (PID=1720) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:11:44.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:11:44.985+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:11:44.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:11:45.032+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:11:45.098+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:11:45.098+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:11:45.144+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:11:45.144+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:11:45.192+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.220 seconds
+[2023-01-17T23:12:12.480+0000] {processor.py:153} INFO - Started process (PID=1787) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:12:12.485+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:12:12.488+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:12:12.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:12:12.562+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:12:12.642+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:12:12.642+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:12:12.694+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:12:12.694+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:12:12.739+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.267 seconds
+[2023-01-17T23:12:41.137+0000] {processor.py:153} INFO - Started process (PID=1852) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:12:41.139+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:12:41.141+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:12:41.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:12:41.183+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:12:41.233+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:12:41.233+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:12:41.268+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:12:41.267+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:12:41.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.164 seconds
+[2023-01-17T23:13:11.560+0000] {processor.py:153} INFO - Started process (PID=1919) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:11.567+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:13:11.573+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:11.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:11.647+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:11.736+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:11.735+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:13:11.804+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:11.804+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:13:11.857+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.307 seconds
+[2023-01-17T23:13:20.815+0000] {processor.py:153} INFO - Started process (PID=1952) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:20.818+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:13:20.819+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:20.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:20.871+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:20.923+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:20.923+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:13:20.956+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:20.956+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:13:20.986+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.176 seconds
+[2023-01-17T23:13:26.603+0000] {processor.py:153} INFO - Started process (PID=1958) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:26.607+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:13:26.610+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:26.610+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:26.679+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:26.750+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:26.750+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:13:26.789+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:26.788+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:13:26.839+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.244 seconds
+[2023-01-17T23:13:55.726+0000] {processor.py:153} INFO - Started process (PID=2031) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:55.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:13:55.733+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:55.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:55.887+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:56.016+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:56.016+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:13:56.054+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:56.054+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:13:56.097+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.378 seconds
+[2023-01-17T23:13:58.009+0000] {processor.py:153} INFO - Started process (PID=2039) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:58.011+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:13:58.014+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:58.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:58.063+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:13:58.057+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 85, in <module>
+    start_task >> download_data_set_ >> end_task
+NameError: name 'download_data_set_' is not defined
+[2023-01-17T23:13:58.065+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:13:58.127+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.124 seconds
+[2023-01-17T23:14:24.618+0000] {processor.py:153} INFO - Started process (PID=2102) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:14:24.622+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:14:24.626+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:14:24.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:14:24.717+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:14:24.785+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:14:24.784+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:14:24.860+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:14:24.860+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:14:24.926+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.319 seconds
+[2023-01-17T23:14:55.221+0000] {processor.py:153} INFO - Started process (PID=2169) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:14:55.226+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:14:55.232+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:14:55.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:14:55.319+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:14:55.405+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:14:55.405+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:14:55.456+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:14:55.455+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:14:55.641+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.430 seconds
+[2023-01-17T23:15:25.760+0000] {processor.py:153} INFO - Started process (PID=2236) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:15:25.762+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:15:25.764+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:15:25.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:15:25.797+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:15:25.869+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:15:25.869+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:15:25.918+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:15:25.918+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:15:25.945+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.189 seconds
+[2023-01-17T23:15:56.161+0000] {processor.py:153} INFO - Started process (PID=2317) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:15:56.163+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:15:56.165+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:15:56.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:15:56.199+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:15:56.246+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:15:56.246+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:15:56.279+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:15:56.278+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:15:56.299+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.144 seconds
+[2023-01-17T23:16:27.014+0000] {processor.py:153} INFO - Started process (PID=2383) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:16:27.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:16:27.018+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:16:27.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:16:27.054+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:16:27.103+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:16:27.103+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:16:27.136+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:16:27.136+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:16:27.160+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.151 seconds
+[2023-01-17T23:16:57.650+0000] {processor.py:153} INFO - Started process (PID=2456) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:16:57.653+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:16:57.655+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:16:57.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:16:57.700+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:16:57.769+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:16:57.769+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:16:57.819+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:16:57.819+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:16:57.851+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.206 seconds
+[2023-01-17T23:17:00.124+0000] {processor.py:153} INFO - Started process (PID=2467) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:17:00.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:17:00.129+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:17:00.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:17:00.172+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:17:00.237+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:17:00.237+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:17:00.284+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:17:00.284+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:17:00.360+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.241 seconds
+[2023-01-17T23:17:30.766+0000] {processor.py:153} INFO - Started process (PID=2534) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:17:30.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:17:30.775+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:17:30.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:17:30.837+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:17:30.924+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:17:30.923+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:17:31.026+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:17:31.026+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:17:31.076+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.318 seconds
+[2023-01-17T23:18:01.357+0000] {processor.py:153} INFO - Started process (PID=2601) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:01.361+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:18:01.365+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:01.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:01.420+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:01.481+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:01.481+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:18:01.532+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:01.532+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:18:01.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.211 seconds
+[2023-01-17T23:18:21.448+0000] {processor.py:153} INFO - Started process (PID=2656) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:21.450+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:18:21.452+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:21.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:21.499+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:21.548+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:21.548+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:18:21.586+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:21.586+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:18:21.618+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.174 seconds
+[2023-01-17T23:18:52.777+0000] {processor.py:153} INFO - Started process (PID=2720) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:52.783+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:18:52.788+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:52.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:52.903+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:18:53.047+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:53.047+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:18:53.173+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:18:53.172+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:18:53.241+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.488 seconds
+[2023-01-17T23:19:23.978+0000] {processor.py:153} INFO - Started process (PID=2786) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:19:23.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:19:23.985+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:19:23.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:19:24.036+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:19:24.102+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:19:24.102+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:19:24.155+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:19:24.155+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:19:24.183+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.213 seconds
+[2023-01-17T23:19:43.637+0000] {processor.py:153} INFO - Started process (PID=2841) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:19:43.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:19:43.647+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:19:43.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:19:43.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:19:43.797+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:19:43.797+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:19:43.871+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:19:43.870+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:19:43.942+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.312 seconds
+[2023-01-17T23:20:01.857+0000] {processor.py:153} INFO - Started process (PID=2880) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:20:01.860+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:20:01.863+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:20:01.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:20:01.924+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:20:02.011+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:20:02.011+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:20:02.108+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:20:02.108+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:20:02.183+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.331 seconds
+[2023-01-17T23:20:33.266+0000] {processor.py:153} INFO - Started process (PID=2947) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:20:33.350+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:20:33.383+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:20:33.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:20:33.640+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:20:33.845+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:20:33.845+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:20:33.907+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:20:33.907+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:20:34.029+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.780 seconds
+[2023-01-17T23:21:00.286+0000] {processor.py:153} INFO - Started process (PID=3019) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:21:00.291+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:21:00.296+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:21:00.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:21:00.431+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:21:00.607+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:21:00.606+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:21:00.726+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:21:00.725+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:21:00.827+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.555 seconds
+[2023-01-17T23:21:31.032+0000] {processor.py:153} INFO - Started process (PID=3088) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:21:31.035+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:21:31.038+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:21:31.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:21:31.079+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:21:31.138+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:21:31.137+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:21:31.174+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:21:31.174+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:21:31.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.182 seconds
+[2023-01-17T23:22:01.306+0000] {processor.py:153} INFO - Started process (PID=3157) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:22:01.309+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:22:01.313+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:22:01.313+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:22:01.356+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:22:01.417+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:22:01.417+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:22:01.457+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:22:01.457+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:22:01.486+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.186 seconds
+[2023-01-17T23:22:31.872+0000] {processor.py:153} INFO - Started process (PID=3224) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:22:31.875+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:22:31.877+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:22:31.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:22:31.913+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:22:31.958+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:22:31.958+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:22:31.991+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:22:31.991+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:22:32.012+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.145 seconds
+[2023-01-17T23:23:02.613+0000] {processor.py:153} INFO - Started process (PID=3304) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:02.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:23:02.617+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:02.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:02.650+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:02.697+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:02.697+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:23:02.730+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:02.729+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:23:02.754+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.145 seconds
+[2023-01-17T23:23:33.229+0000] {processor.py:153} INFO - Started process (PID=3371) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:33.233+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:23:33.238+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:33.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:33.300+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:33.377+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:33.377+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:23:33.482+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:33.482+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:23:33.559+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.340 seconds
+[2023-01-17T23:23:43.372+0000] {processor.py:153} INFO - Started process (PID=3398) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:43.373+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:23:43.394+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:43.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:43.575+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:23:43.739+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:43.739+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:23:44.012+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:23:44.011+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:23:44.270+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.902 seconds
+[2023-01-17T23:24:14.692+0000] {processor.py:153} INFO - Started process (PID=3465) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:24:14.698+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:24:14.701+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:24:14.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:24:14.765+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:24:14.862+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:24:14.861+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:24:14.946+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:24:14.946+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:24:14.991+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.309 seconds
+[2023-01-17T23:24:45.146+0000] {processor.py:153} INFO - Started process (PID=3532) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:24:45.150+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:24:45.151+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:24:45.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:24:45.189+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:24:45.235+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:24:45.235+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:24:45.267+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:24:45.267+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:24:45.287+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.145 seconds
+[2023-01-17T23:25:15.522+0000] {processor.py:153} INFO - Started process (PID=3613) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:25:15.525+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:25:15.526+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:25:15.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:25:15.561+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:25:15.610+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:25:15.610+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:25:15.640+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:25:15.640+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:25:15.661+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.143 seconds
+[2023-01-17T23:25:45.851+0000] {processor.py:153} INFO - Started process (PID=3680) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:25:45.854+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:25:45.855+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:25:45.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:25:45.883+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:25:45.922+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:25:45.922+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:25:45.948+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:25:45.948+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:25:45.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.123 seconds
+[2023-01-17T23:26:16.809+0000] {processor.py:153} INFO - Started process (PID=3755) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:26:16.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:26:16.835+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:26:16.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:26:16.924+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:26:17.036+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:26:17.035+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:26:17.181+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:26:17.181+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:26:17.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.498 seconds
+[2023-01-17T23:26:47.534+0000] {processor.py:153} INFO - Started process (PID=3827) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:26:47.537+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:26:47.539+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:26:47.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:26:47.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:26:47.614+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:26:47.614+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:26:47.648+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:26:47.648+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:26:47.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.144 seconds
+[2023-01-17T23:27:17.838+0000] {processor.py:153} INFO - Started process (PID=3893) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:27:17.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:27:17.842+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:27:17.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:27:17.875+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:27:17.926+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:27:17.926+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:27:17.960+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:27:17.960+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:27:17.985+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.151 seconds
+[2023-01-17T23:27:42.707+0000] {processor.py:153} INFO - Started process (PID=3955) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:27:42.712+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:27:42.714+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:27:42.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:27:42.768+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:27:42.825+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:27:42.825+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:27:42.863+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:27:42.862+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:27:42.892+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.192 seconds
+[2023-01-17T23:28:13.249+0000] {processor.py:153} INFO - Started process (PID=4020) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:28:13.253+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:28:13.257+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:28:13.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:28:13.378+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:28:13.503+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:28:13.503+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:28:13.558+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:28:13.557+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:28:13.603+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.362 seconds
+[2023-01-17T23:28:43.954+0000] {processor.py:153} INFO - Started process (PID=4092) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:28:43.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:28:43.960+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:28:43.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:28:43.998+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:28:44.054+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:28:44.053+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:28:44.096+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:28:44.096+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:28:44.132+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.183 seconds
+[2023-01-17T23:29:14.802+0000] {processor.py:153} INFO - Started process (PID=4166) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:29:14.805+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:29:14.808+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:29:14.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:29:14.847+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:29:14.905+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:29:14.904+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:29:14.954+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:29:14.954+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:29:14.998+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.203 seconds
+[2023-01-17T23:29:45.569+0000] {processor.py:153} INFO - Started process (PID=4233) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:29:45.571+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:29:45.573+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:29:45.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:29:45.610+0000] {processor.py:753} INFO - DAG(s) dict_keys(['oetker']) retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:29:45.662+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:29:45.661+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-17T23:29:45.700+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:29:45.699+0000] {dag.py:3427} INFO - Setting next_dagrun for oetker to 2023-01-17T23:07:37.134271+00:00, run_after=2023-01-18T23:07:37.134271+00:00
+[2023-01-17T23:29:45.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.164 seconds
+[2023-01-17T23:30:13.572+0000] {processor.py:153} INFO - Started process (PID=4299) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:30:13.616+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:30:13.730+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:30:13.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:30:14.323+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:30:14.291+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28
+    from airflow.providers.apache.spark import
+                                             ^
+SyntaxError: invalid syntax
+[2023-01-17T23:30:14.362+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:30:14.918+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 1.419 seconds
+[2023-01-17T23:30:45.598+0000] {processor.py:153} INFO - Started process (PID=4365) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:30:45.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:30:45.602+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:30:45.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:30:45.611+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:30:45.609+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28
+    from airflow.providers.apache.spark import
+                                             ^
+SyntaxError: invalid syntax
+[2023-01-17T23:30:45.612+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:30:45.639+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.045 seconds
+[2023-01-17T23:31:16.356+0000] {processor.py:153} INFO - Started process (PID=4446) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:31:16.359+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:31:16.361+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:31:16.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:31:16.370+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:31:16.369+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28
+    from airflow.providers.apache.spark import
+                                             ^
+SyntaxError: invalid syntax
+[2023-01-17T23:31:16.372+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:31:16.398+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.047 seconds
+[2023-01-17T23:31:43.652+0000] {processor.py:153} INFO - Started process (PID=4494) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:31:43.670+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:31:43.680+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:31:43.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:31:43.870+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:31:43.858+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28
+    from airflow.providers.apache.spark import
+                                             ^
+SyntaxError: invalid syntax
+[2023-01-17T23:31:43.898+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:31:44.310+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.690 seconds
+[2023-01-17T23:32:14.703+0000] {processor.py:153} INFO - Started process (PID=4574) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:32:14.705+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:32:14.706+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:32:14.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:32:14.716+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:32:14.715+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28
+    from airflow.providers.apache.spark import
+                                             ^
+SyntaxError: invalid syntax
+[2023-01-17T23:32:14.720+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:32:14.747+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.049 seconds
+[2023-01-17T23:32:30.459+0000] {processor.py:153} INFO - Started process (PID=4605) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:32:30.467+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:32:30.486+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:32:30.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:32:30.699+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:32:30.692+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:32:30.701+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:32:30.769+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.326 seconds
+[2023-01-17T23:33:00.845+0000] {processor.py:153} INFO - Started process (PID=4672) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:00.849+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:33:00.851+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:00.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:00.881+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:00.879+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:33:00.883+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:00.910+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.069 seconds
+[2023-01-17T23:33:31.285+0000] {processor.py:153} INFO - Started process (PID=4748) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:31.287+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:33:31.289+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:31.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:31.317+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:31.314+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:33:31.320+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:31.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.069 seconds
+[2023-01-17T23:33:43.016+0000] {processor.py:153} INFO - Started process (PID=4769) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:43.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:33:43.024+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:43.024+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:43.123+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:43.117+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:33:43.133+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:43.178+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.176 seconds
+[2023-01-17T23:33:57.771+0000] {processor.py:153} INFO - Started process (PID=4816) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:57.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:33:57.780+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:57.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:57.835+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:33:57.832+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:33:57.837+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:33:57.868+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.104 seconds
+[2023-01-17T23:34:27.941+0000] {processor.py:153} INFO - Started process (PID=4888) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:34:27.944+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:34:27.947+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:34:27.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:34:28.009+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:34:27.978+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:34:28.023+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:34:28.078+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.142 seconds
+[2023-01-17T23:34:55.119+0000] {processor.py:153} INFO - Started process (PID=4955) to work on /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:34:55.121+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/oetker/oetker.py for tasks to queue
+[2023-01-17T23:34:55.123+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:34:55.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:34:55.163+0000] {logging_mixin.py:137} INFO - [2023-01-17T23:34:55.161+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/oetker/oetker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/oetker/oetker.py", line 28, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-01-17T23:34:55.165+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/oetker/oetker.py
+[2023-01-17T23:34:55.190+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/oetker/oetker.py took 0.078 seconds
